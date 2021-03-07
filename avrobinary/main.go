@@ -23,7 +23,7 @@ var codec, _ = goavro.NewCodec(`
 
 func main() {
 	ctx := context.Background()
-	c, err := pubsub.NewClient(ctx, "laqiiz-test01")
+	c, err := pubsub.NewClient(ctx, "<YOUR PROJECT ID>")
 	if err != nil {
 		log.Fatal(err)
 	}
